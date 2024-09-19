@@ -1,0 +1,32 @@
+
+/*lea g sep 19*/
+
+header {
+  background-color: #b0d2ff;
+}
+
+  p, ul, li {
+    font-size: 20px;
+  }
+
+  a:link {
+    color: #52ab48;
+  }
+
+  a:visited {
+    color:  #a6efe6;
+  }
+
+  a:hover {
+    color:  #06949c;
+  }
+
+  a:active {
+    color:#5885be
+  }
+
+  footer {
+    background-color:#b0d2ff;
+  }
+
+  
