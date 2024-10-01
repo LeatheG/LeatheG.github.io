@@ -47,11 +47,11 @@ body{
 }
 .floatright{
     float: right;
-    margin-right: 3%;
+    margin: 3%;
 }
 
 .floatleft{
     float: left;
-    margin-left: 3%;
+    margin: 3%;
 }
 
