@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Name
+     Date -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Your Name" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Your Name web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:LeaGoretoy@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <!-- Company Select Box, page 97 -->
+            <div>
+                <label for="Company">Company:</label><br><input type="text" name="Company name" id="Company"/>
+            </div>
+            <!-- Person to Contact Select Box, page 97 -->
+            <div>
+                <label for="Contact">Person to contact:</label><br><input type="text" name="Contact" id="Contact"/>
+            </div>
+            <!-- Email, textbook file rental.html -->	
+            <!--Video 9.9 Building and Testing a Valid Form-->	
+            <div>
+                <label for="email">Email: </label><input type="email" name="Email" id="Email" placeholder="Email"/>
+            </div>
+            <!-- Phone, textbook file rental.html-->
+            <!--Video 9.9 Building and Testing a Valid Form-->
+            <div>
+                <label for="phone_number">Phone Number: </label><input type="tel" name="phone_number" id="phone_number" placeholder="000-000-0000"/>
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box, page 98 -->
+            <label for="position">Type of position: </label>
+                <select name="position" id="position">
+                    <option value="internship">Internship</option>
+                    <option value="parttime">Part-Time</option>
+                    <option value="fulltime">Full-Time</option>
+                </select>
+
+            <!-- Radio Buttons, page 99 -->
+            <p>How did you fine me?</p>
+            <input type="radio" name="option" value="1st option" />LinkedIn      
+            <input type="radio" name="option" value="2nd option" checked />Job Fair     
+            <input type="radio" name="option" value="3rd option" />CWI Corporate Partner
+            
+
+            <div>
+                <!-- Text Area, textbook file code-9-1.html -->	
+                <textarea id="answer" name="answer" rows="10" cols="100">How should I prepare for the interview?</textarea>
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+<!-- <label for=""></label><input type="text" name="" id="" placeholder=""/>-->
+</html>
