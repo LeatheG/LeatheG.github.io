@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,700,900&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #fcf6e7;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #282009;
+    color: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+main, aside {
+    margin: 30px;
+}
+
+aside {
+    background: #272727;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.byline {
+    font-family: Futura, sans-serif;
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+
+@media screen and (max-width: 599px) {
+    .wrapper {
+        display: block;
+        padding: 0;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 15px;
+        justify-items: center;
+    }
+}
+
+/* Other styles above this point... */
+
+/* Large screen layout */
+@media screen and (min-width: 1000px) {
+    header {
+        grid-area: header;
+    }
+
+    article {
+        grid-area: main; 
+    }
+
+    aside {
+        grid-area: sidebar; /* Make sure this corresponds to your aside */
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    .wrapper {
+        display: grid; /* Activate grid layout */
+        grid-gap: 15px; /* Space between grid items */
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Five equal columns */
+        grid-template-areas:
+            "header header header header header" /* Header spans all columns */
+            "main main main main sidebar" /* Main content next to sidebar */
+            "footer footer footer footer footer"; /* Footer spans all columns */
+    }
+}
+
+
