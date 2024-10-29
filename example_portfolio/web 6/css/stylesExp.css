@@ -1,15 +1,24 @@
 .projectExamples {
-    width: 90%;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    /* width: 90%;
+    margin: 0 auto;*/
 }
 
 .projectBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: #FFFFFF;
     border: 1px solid #5171c2;
+    width: 25%;
+    /*
     float: left;
-    margin: 10px;
+    margin: 10px;flex-wrap: wrap;
     text-align: center;
-    width: 20%;
+    width: 20%;*/
 }
 
 .projectBox h4.semester {
