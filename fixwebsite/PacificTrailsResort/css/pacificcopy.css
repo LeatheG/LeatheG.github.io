@@ -1,0 +1,25 @@
+
+/*************************** Mobile ***************************/
+ 
+header {
+    background-color: #000033;
+    color: #FFFFFF; 
+    background-image: url(../images/sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat; 
+    line-height: 400%;
+    text-indent: 1em;
+}
+nav ul { 
+	background-color: #90C7E3;
+    font-weight: bold;
+	list-style-type: none;
+	margin: 0;  
+	padding: 0;
+}
+h1 { margin-bottom: 0; 
+    font-family: Georgia, 'Times New Roman', serif;
+ }
+
+
+
