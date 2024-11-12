@@ -1,0 +1,12 @@
+
+html{
+    background-color: rgb(255, 230, 234);
+}
+img {
+  padding: 20px;
+  width: 250px;
+  transition: width 3s ease 0.3s
+}
+img:hover {
+  width: 350px;
+}
