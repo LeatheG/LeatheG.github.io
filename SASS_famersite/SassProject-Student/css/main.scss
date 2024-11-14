@@ -1,0 +1,31 @@
+$navText: #000;
+$navBackground: #C5A98B;
+$navOtherBackground:#7a6b48;
+$navHover: #8B0000;
+nav{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color:$navBackground;
+
+        li{
+            a{
+                display: block;
+                color: $navText;
+                padding: 8px 16px;
+                text-decoration: none;
+
+                &:active{
+                    background-color: $navOtherBackground;
+                    color: $navText;
+                }
+
+                &:hover{
+                    background-color: $navOtherBackground;
+                    color: $navHover;
+                }
+            }
+        }
+    }
+}
