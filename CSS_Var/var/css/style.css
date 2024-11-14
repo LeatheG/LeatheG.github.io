@@ -1,0 +1,14 @@
+:root {
+--fontSize: 1.25em;
+--fontSizeHeading: calc(var(var(--fontSize) * 3));
+}
+
+body {
+  font-size: var(--fontSize);
+}
+h1{
+  font-size: var(--fontSize);
+}
+html{
+  background-color: #88ffc0;
+}
