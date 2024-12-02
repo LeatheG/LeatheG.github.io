@@ -1,0 +1,101 @@
+/*validated*/
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #dcc1c1; 
+}
+
+a:hover {
+    color: red; 
+}
+
+a:active {
+    color: darkred; 
+}
+
+html{
+    background-image:url(../images/unnamedpt2.png);
+}
+
+.projectExamples {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+}
+
+.projectBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    width: 18%;
+}
+
+
+.projectBox h4.semester {
+    background:#5f5f5f2d; 
+    border: 1px dashed #20202033;
+    color: #323232ce;
+    padding: 10px;
+}
+
+.projectBox img {
+    margin-bottom: 15px;
+}
+
+.projectBox a.button {
+    display: block;
+    width: 30%;
+    margin: 3px auto;
+    color: #ffffff;
+    background: #83909ebc;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: rgb(58, 58, 58);
+    border-radius: 15px;
+    padding: 7px;
+}
+/* ---- making the table in css instead of how the book explains it
+table{
+    border: 23px #8f8f8f dashed;
+}
+ tr, td{
+    border: 1.5px solid black;
+}
+*/
+footer {
+    clear: left;
+}
+
+footer hr{
+    border-style: dashed;
+    color:#7d7d7d;
+  }
+
+h2{
+    padding-top: 50px;
+    color:#8f8f8f;
+
+}
+
+table{
+    margin-left: 17px;
+    margin-top: 10px;
+    padding: 20px;
+    color:  #8f8f8f;
+    background-color: #0000004e;
+    border-style: dashed;
+}
+@media screen and (max-width: 750px) {
+    .projectBox img {
+        width: 80px; 
+        height: auto;
+    }
+    .projectBox a.button {
+        font-size: .60em;
+    }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--Lea Goretoy ** validated-->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Lea Goretoy" >
+    <meta charset="UTF-8" >
+    <meta name="description" content="A form to get into contact with me" >
+    <meta name="keywords" content="Conact form" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link href ="css/stylecontact.css" type="text/css" rel="stylesheet">
+    <link href ="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a></li>
+        <li class="spacer"></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       </ul>
+      
+      <h3>✧ Contact Form ✧</h3>
+    <form action="mailto:LeaGoretoy@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <div>
+                <label for="Company">Company:</label><input type="text" name="Company name" id="Company">
+            </div>
+            <div>
+                <label for="Contact">Person to contact:</label><input type="text" name="Contact" id="Contact">
+            </div>	
+            <div>
+                <label for="Email">Email: </label><input type="email" name="Email" id="Email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="phone_number">Phone Number: </label><input type="tel" name="phone_number" id="phone_number" placeholder="000-000-0000" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <label for="position">Type of position: </label>
+                <select name="position" id="position">
+                    <option value="internship">Internship</option>
+                    <option value="parttime">Part-Time</option>
+                    <option value="fulltime">Full-Time</option>
+                    <option value="temp">Temporary</option>
+                    <option value="contract">Contract</option>
+                    <option value="oncall">On Call</option>
+                </select>
+            <p>How did you fine me?</p>
+            <input type="radio" name="option" value="1st option" >LinkedIn      
+            <input type="radio" name="option" value="2nd option" checked >Job Fair     
+            <input type="radio" name="option" value="3rd option" >Indeed
+            <input type="radio" name="option" value="4th option" >CWI Corporate Partner
+
+
+            <div>
+                <textarea id="answer" name="answer" rows="8" cols="70">Leave a message!</textarea>
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+
+   <footer>
+        <a href="https://www.instagram.com/sugr_rsh/" target="_blank"><img src="images/iconmonstr-instagram-15-48.png" alt="social icon for Instagram" ></a>
+        <a href="https://github.com/LeatheG" target="_blank"><img src="images/iconmonstr-github-5-48.png" alt="social icon for github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/iconmonstr-linkedin-5-48.png" alt="social icon for linkedin"></a>
+    </footer>
+ </body>
+</html>

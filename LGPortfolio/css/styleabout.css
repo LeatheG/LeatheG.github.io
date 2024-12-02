@@ -1,0 +1,127 @@
+
+/*validated*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+html{
+	background-image:url(../images/aboutme_background.png) ;
+    background-color: #2e2e2e;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+    height: 100%;
+}
+
+body{
+    margin:0;
+    padding-top: 8.5%;
+    padding-left: 53.5%;
+    padding-right: 6.5%;
+}
+
+main{
+    margin: 0;
+    border-style: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-family: "Indie Flower", Times, serif;
+    font-size: 1.5em;
+    color:#2c2c2c;
+}
+
+footer{
+    padding-right: 40%;
+}
+
+h3{
+    margin: 0;
+    padding: 0.5%;
+    font-family: "Indie Flower", Times, serif;
+    font-size: 1.8em;
+    color:#2c2c2c;
+}
+@media screen and (max-width: 1490px) {
+    body{
+        padding-top: 9.5%;
+        padding-left: 53.5%;
+        padding-right: 6.5%;
+    }
+
+    p{
+        font-size: 1.4em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+ 
+}
+@media screen and (max-width: 1350px) {
+    body{
+        padding-top: 12.5%;
+        padding-left: 53.5%;
+        padding-right: 6%;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    h3{
+        font-size: 1.3em;
+    }
+    footer{
+        padding-right:30%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    html{
+        background-image: url(../images/unnamedpt2.png);
+        background-repeat: repeat;
+    }
+
+    body{
+        margin:0;
+        padding:100px 150px 0;
+    }
+
+    main{
+        margin: 0;
+        padding: 20px;
+        color:  #8f8f8f;
+        background-color: #ffffffde;
+        border-style: dashed;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+    h3{
+        font-size: 1.3em;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    p{
+        font-size: 1em;
+    }
+    h3{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 685px) {
+    footer{
+        display: none;
+    }
+}
+
+    
