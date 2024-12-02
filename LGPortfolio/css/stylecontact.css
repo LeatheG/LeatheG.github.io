@@ -10,7 +10,7 @@ form {
     color: rgb(201, 201, 201);
     background-color: rgba(255, 255, 255, 0); 
     width: 50%; 
-    margin: 20px 20px 10%; 
+    margin: 20px 20px 20px; 
     padding-left: 70px;
     padding-top: 60px;
 }
