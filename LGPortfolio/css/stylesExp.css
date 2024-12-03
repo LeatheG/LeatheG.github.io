@@ -59,14 +59,12 @@ html{
     border-radius: 15px;
     padding: 7px;
 }
-/* ---- making the table in css instead of how the book explains it
 table{
     border: 23px #8f8f8f dashed;
 }
  tr, td{
     border: 1.5px solid black;
 }
-*/
 footer {
     clear: left;
 }
