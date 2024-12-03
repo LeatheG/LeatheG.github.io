@@ -60,6 +60,6 @@ footer {
 @media screen and (max-width: 675px) {
   .nav li a {
     display: block;
-    font-size: 1.4em; 
+    font-size: 1.38em; 
   }
 }
