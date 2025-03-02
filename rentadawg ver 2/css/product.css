@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Indie+Flower&family=Pacifico&display=swap');
+h2{
+    margin: 20px 400px 20px 400px;
+    color:  #ffffff;
+    font-size: 37px;
+    text-align: center; 
+    font-family: "Gamja Flower", serif;
+    background-color: rgba(0, 0, 0, 0.337);
+}
+p{
+    font-family: "Gamja Flower", serif;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+section {
+    font-family: "Gamja Flower", serif;
+    background-color: rgba(0, 0, 0, 0.505);
+    margin: 1em auto;
+    width: 800px;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+/* 2/24/25 chnaged background images */
+html{
+    background-size: 1570px;
+    background-image:url(../media/background_paw.PNG) ;
+}
