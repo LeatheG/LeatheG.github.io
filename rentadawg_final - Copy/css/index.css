@@ -1,0 +1,57 @@
+
+/* 2/24/25 complete revamp of the color pallete and background*/
+.yell{
+    margin: 70px 630px 25px 60px;
+    text-align: center;
+    color:  #ffffff;
+    font-family: "Gamja Flower", serif;
+    font-size: 50px;
+    
+}
+/* 2/24/25 changed this section for clarity sake*/
+.explain {
+    margin: 20px 790px 20px 200px;
+    text-align: center;
+    color:  #c9c9c9;
+    background-color: #191919d0;
+    font-family: "Gamja Flower", serif;
+    font-size: 30px;
+}
+
+.info {
+    margin: 20px 790px 20px 200px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.info a{
+    color:#b7b7b7;
+    text-decoration: underline;
+}
+
+.info a:hover{
+    color:#919191;
+    font-size: 20.5px;
+
+}
+
+/* 2/24/25 changed the background images*/
+html{
+    font-family: Arial, sans-serif;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.275)),
+        url("../media/background_dog.PNG"),
+        linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+        url("../media/background_line.PNG"),
+        url("../media/background_speakers.PNG"),
+        url("../media/background_paw.PNG");
+        background-size: 100%, 97%, 100%, 95%, 100%, 100%;
+        background-repeat: no-repeat, no-repeat;
+}
+html, body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+ 
