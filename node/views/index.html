@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author: Lea Goretoy                                      
+#Date Created: 05/08/2025                                     
+#Version: 1.1                                    
+#Date Last Modified: 05/09/2025                                
+#Modified by: Lea Goretoy                               
+#Modification log: 
+ -- 05/08/2025 Project ver 1.0 started. added HTML, CSS, and JS and bootstrap. about 2-3 hours of work                                     
+ -- 05/09/2025 added contact form and drinks section. made mockups for drinks. added testimonials. made page responsive. 5 hours straight
+-- 05/13/2025 made sure everything was working 
+------------------------------------------------------------------------------------------------------------------>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blitz Energy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/hover.css/css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="spacer"></div>
+    <!-- Navigation Bar ------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: #244a72 !important; font-size: 40px;"> ⚡︎ Blitz Energy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link hvr-grow" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link hvr-grow" href="#drinks">Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link hvr-grow" href="#testimonial">Comments</a></li>
+                    <li class="nav-item"><a class="nav-link hvr-grow" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section --------------------------------------------------------------------------->
+    <header id="home" class="align-items-center">
+        <div class="container">
+
+        </div>
+      </header>
+      <img src="/img/poster.jpeg" alt="" class="img-fluid" style="width: 100%;"/>
+
+
+      <div class="spacer"></div>
+    <!-- drinks Section ------------------------------------------------------------------------->
+    <section id="drinks">
+        <div class="album py-5 bg-light">
+            <h3 class="text-center">Our Drinks!</h3>
+            <p class="text-center">Just released - our summer flavors</p>
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card shadow-sm hvr-grow">
+                    <img
+                      class="card-img-top uniform-img"
+                      width="100%"
+                      height="400"
+                      src="/img/breeze_mockup.jpg"
+                    />
+                    <div class="card-body">
+                      <p class="card-text"> ✧ Summer Breeze ✧</p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <div class="btn-group">
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            ❤
+                          </button>
+                        </div>
+                        <small class="text-muted">Notes of blue raspberry and lemon</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card shadow-sm hvr-grow">
+                    <img
+                      class="card-img-top uniform-img"
+                      width="100%"
+                      height="400"
+                      src="/img/mango_mockup.jpg"
+                    />
+    
+                    <div class="card-body">
+                      <p class="card-text">✧ Citrus Mango ✧</p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <div class="btn-group">
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            ❤
+                          </button>
+                        </div>
+                        <small class="text-muted">Notes of orange and mango</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card shadow-sm hvr-grow">
+                    <img
+                      class="card-img-top uniform-img"
+                      width="100%"
+                      height="400"
+                      src="/img/guava_mockup.jpg"
+                    />
+    
+                    <div class="card-body">
+                      <p class="card-text">✧ Bright Guava ✧</p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <div class="btn-group hvr-grow">
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            ❤
+                          </button>
+                        </div>
+                        <small class="text-muted">Notes of guava and passion fruit</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card shadow-sm hvr-grow">
+                    <img
+                      class="card-img-top uniform-img"
+                      width="100%"
+                      height="400"
+                      src="/img/bubblegum_mockup.jpg"
+                    />
+    
+                    <div class="card-body">
+                      <p class="card-text">✧ Mellow Bubblegum ✧</p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <div class="btn-group">
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            ❤
+                          </button>
+                        </div>
+                        <small class="text-muted">Notes of light cream and bubblegum</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card shadow-sm hvr-grow">
+                    <img
+                      class="card-img-top uniform-img"
+                      width="100%"
+                      height="400"
+                      src="/img/pear_mockup.jpg"
+                    />
+    
+                    <div class="card-body">
+                      <p class="card-text">✧ Emerald Pear ✧</p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <div class="btn-group">
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            ❤
+                          </button>
+                        </div>
+                        <small class="text-muted">Notes of ripe green pear and apple</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card shadow-sm hvr-grow">
+                    <img
+                      class="card-img-top uniform-img"
+                      width="100%"
+                      height="400"
+                      src="/img/lavender_mockup.jpg"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">✧ Sugared Lavender ✧</p>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <div class="btn-group">
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            ❤
+                          </button>
+                        </div>
+                        <small class="text-muted">Notes of sweet lavender and cotton candy</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Testimonial Section --------------------------------------------------------------------------->  
+    <section id="testimonial">
+        <div class="spacer"></div>
+    <h3 class="text-center">Our Testimonials!</h3>
+        <div class="comments">
+            <div class="card">
+                <div class="card-header">
+                  Flavor - Citrus Mango
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"I drink like 4 Blitz energy drinks a day lol. Hopefully that's not gonna cause heart issues"</p>
+                    <footer class="blockquote-footer">@Ladiesman217</footer>
+                  </blockquote>
+                </div>
+              </div>
+              <br><br>
+              <div class="card">
+                <div class="card-header">
+                    Flavor - Sugared Lavender
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"Why am i enjoying a drink with a feaking flower as its primary flavor, what is this??"</p>
+                    <footer class="blockquote-footer">@mostcreative.username</footer>
+                  </blockquote>
+                </div>
+              </div>
+              <br><br>
+              <div class="card">
+                <div class="card-header">
+                    Flavor - Bright Guava 
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"I would sell just about anything to get a case of the guava one... anyone want my sibling for a energy drink?"</p>
+                    <footer class="blockquote-footer">@myfulllegalnameforsomereason</footer>
+                  </blockquote>
+                </div>
+              </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+
+    <!-- Contact Form -------------------------------------------------------------------------->
+    <section id="contact" class="bg-light">
+        <div class="container contact-form">
+            <form method="post" action="/submit-form">
+                <br><br>
+                <h3 class="text-center">Get In Contact!</h3>
+                <br>
+            <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value=""required />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value=""required />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value=""required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact btn btn-info hvr-grow"  value="Send Message" required />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
+                    </div>
+                </div>
+            </form>
+
+            <div class="spacer"></div>
+        </div>
+    </section>
+
+    <footer class="py-3">
+      <div class="container text-center">
+        &copy; 2025 Blitz Energy. This is a fictional
+        website.
+      </div>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,68 @@
+/*********************************************************************
+***
+*Original Author: Lea G                                    
+*Date Created: 5/8/2025                                       
+*Version: 1.0.0                                                
+*Date Last Modified: 5/9/2025                              
+*Modified by: Lea G                                         
+*Modification log: 
+-- 5/8/2025 - started project. added css for navbar and body.  
+-- 5/9/2025 - added css for comments and footer. Added background image and changed colors. added css for comments and gallery. added font.                               
+***/
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    min-height: 100vh;
+    background-image: url("./img/bg.png") !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+  }
+  
+  h3{
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 40px;
+  }
+
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.651); 
+    backdrop-filter: blur(8px);
+    font-size: 21px;
+    font-family: 'Protest Revolution', sans-serif;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+
+  .nav-link {
+    color: #59a7b8 !important;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #296477 !important;
+  }
+
+  .comments{
+    margin: 2rem;
+  }
+
+  .spacer{
+    height: 4.5rem;
+  }
+
+  .footer{
+    padding: 1.3rem;
+    font-size: 20px;
+    background-color: rgba(255, 238, 175, 0.2); 
+    backdrop-filter: blur(8px); 
+  }
