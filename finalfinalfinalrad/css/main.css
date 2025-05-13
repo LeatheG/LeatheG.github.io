@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Indie+Flower&family=Pacifico&display=swap');
+/* 2/24/25 changed header look and added logo */
+/* 3/1/25 messed with header and navbar margin and padding*/
+header{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.604);
+    font-size: 50px;
+    text-align: center;
+    font-family: "Gamja Flower", serif;
+}
+/* 3/6/25 changed button design a bit */
+
+/* 3/12/25 changed body size */
+
+footer{
+    font-family: "Gamja Flower", serif;
+    text-align: center;
+    color:#b8b8b8;
+    background-color: rgba(0, 0, 0, 0.252);
+}

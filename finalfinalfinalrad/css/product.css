@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Indie+Flower&family=Pacifico&display=swap');
+
+h2{
+    color:  #ffffff;
+    padding: 10px 20px;
+    text-align: center; 
+  
+}
+/* 3/3/25 added css because added h3 */
+h3{
+    color: #d5d5d5;
+    font-size: 35px;
+}
+/* 3/3/25 added css because added h2 */
+h4{
+
+    color: #dedede;
+    font-size: 25px;
+    text-align: center;
+}
+
+p{
+
+    color: #ffffff;
+    font-size: 25px;
+}
+/* 3/3/25 added css because added discriptions */
+.party{
+    background-color: rgba(0, 0, 0, 0.505);
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+section {
+    background-color: rgba(0, 0, 0, 0.505);
+    margin: .5em auto;
+    width: 800px;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+/* 2/24/25 chnaged background images */
+/*5/10/25 updated to include the body, added height*/
+html, body {
+    font-family: "Gamja Flower", serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../media/background_paw.PNG);
+}

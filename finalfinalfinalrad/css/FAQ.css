@@ -1,0 +1,46 @@
+/*created 3/5/25*/
+/* Override jQuery UI accordion header styles */
+.ui-accordion .ui-accordion-header {
+    background-color: #333; 
+    color: #fff; 
+    border: 2px solid #444; 
+    font-family: "Gamja Flower", serif; 
+    font-size: 35px; 
+    margin: 0; 
+    padding: 10px; 
+}
+/* Override jQuery UI accordion content styles */
+.ui-accordion .ui-accordion-content {
+    background-color: rgba(0, 0, 0, 0.256); 
+    color: #fff; 
+    border: none; 
+    font-family: "Gamja Flower", serif; 
+    font-size: 25px; 
+    margin: 0px; 
+    padding: 10px; 
+}
+
+.ui-accordion .ui-accordion-header:hover {
+    background-color: #555555bb; 
+}
+
+.ui-accordion .ui-accordion-header-active {
+    background-color: #444; 
+}
+
+h4{
+    color:  #ffffff;
+    font-family: "Gamja Flower", serif;
+}
+ .photo{
+    float: left;
+    padding-right: 50px;
+    border-radius: 50%;
+ }
+html, body{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.601)),
+    url(../media/background_paw.PNG);
+    background-size: 100%, 1570px;
+    background-repeat: no-repeat, repeat;
+}
